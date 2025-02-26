@@ -24,3 +24,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* MY SOLUTIONS */
+/* Doing it this way because the solutions files are easily readable this way so I'll emulate that! */
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 32px 0;
+}
+
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 52px;
+}
+
+.plant{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+/* Looks like I did accomplish this one, just with way more lines. The official solution is much more efficient. */
